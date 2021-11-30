@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "509820137716",
+    "firebase_url": "https://simplelchat-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "simplelchat",
+    "storage_bucket": "simplelchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509820137716:android:536462b32027d91682eea1",
+        "android_client_info": {
+          "package_name": "com.lizaveta16.simplechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509820137716-62lt6jaqh1rp3f75279ec6n12f6jdc9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmGoiCF6Ia3QOR_nwL4G-dfr76ebsxDSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509820137716-62lt6jaqh1rp3f75279ec6n12f6jdc9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
