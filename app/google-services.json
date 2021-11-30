@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "509820137716-hrpoq0odnph011bd588a79bongtbs3pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lizaveta16.simplechat",
+            "certificate_hash": "7db87d8162fabbd7e698907e24d5f559ae91e4d8"
+          }
+        },
+        {
           "client_id": "509820137716-62lt6jaqh1rp3f75279ec6n12f6jdc9u.apps.googleusercontent.com",
           "client_type": 3
         }
