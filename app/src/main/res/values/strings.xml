@@ -2,4 +2,5 @@
     <string name="app_name">SimpleChat</string>
     <string name="send_text">Сообщение</string>
     <string name="sign_in_but_text">Google SignIn</string>
+    <string name="sign_out_but">SignOut</string>
 </resources>

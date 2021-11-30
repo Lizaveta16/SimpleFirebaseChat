@@ -2,6 +2,8 @@ package com.lizaveta16.simplechat
 
 import android.graphics.drawable.BitmapDrawable
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -28,6 +30,19 @@ class MainActivity : AppCompatActivity() {
         }
 
         onChangeListener(myRef)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == R.id.signOut){
+            auth.signOut()
+            finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun onChangeListener(dRef : DatabaseReference){
